@@ -1,0 +1,24 @@
+.material-icons.md-48 { font-size: 48px; }
+
+.album-square {
+    width: 128px;
+    height: 128px;
+    background: #DDD;
+    background-image: url(https://loremflickr.com/320/240);
+    background-size: cover;
+    background-position: center;
+    color: #FFF;
+}
+
+.album-square .overlay {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.album-square:hover .overlay {
+    opacity: 1;
+}
