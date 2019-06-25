@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.album .album-cover {
+    width: 100px;
+    height: 100px;
+    background: #DDD;
+    background-image: url(https://loremflickr.com/320/240);
+    background-size: cover;
+    background-position: center;
+    color: #FFF;
+    font-size: 17px;
+}
+
+.album .album-cover .overlay {
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
+    display: flex;
+    align-items: flex-end;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.album {
+    display: flex;
+    padding: 12px 8px;
+    border-bottom: 1px solid #EEE;
+}
+
+.album .info {
+    padding-left: 20px;
+}
+
+.album .info .album-title {
+    font-size: 15px;
+}
+
+.album .info .singer {
+    font-size: 12px;
+    color: #999;
+    padding-top: 5px;
+}
+
+.album .info .count-view {
+    font-size: 12px;
+    color: #999;
+    padding-top: 5px;
+}
